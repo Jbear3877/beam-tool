@@ -318,8 +318,8 @@ def draw_results_plot(internal_forces, supports, node_pos):
 
     fig.update_layout(
         height=600,
-        margin=dict(l=50, r=20, t=40, b=30),
-        legend=dict(orientation="h", yanchor="bottom", y=1.02, xanchor="center", x=0.5),
+        margin=dict(l=50, r=20, t=60, b=30),
+        legend=dict(orientation="h", yanchor="bottom", y=1.05, xanchor="center", x=0.5),
         hovermode='x unified'
     )
 
