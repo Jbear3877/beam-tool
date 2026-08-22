@@ -20,11 +20,24 @@ st.set_page_config(
 # ========== 自定义样式 ==========
 st.markdown("""
 <style>
-    .block-container { padding-top: 1rem; }
-    .stMetric { background: #f8f9fa; border-radius: 8px; padding: 10px; }
-    h1 { font-size: 1.5rem !important; }
+    .block-container {
+        padding-top: 2rem !important;
+    }
+    [data-testid="stHeader"] {
+        background: transparent !important;
+        height: auto !important;
+        min-height: 0 !important;
+        overflow: visible !important;
+    }
+    h1 {
+        font-size: 1.5rem !important;
+        line-height: 1.6 !important;
+        overflow: visible !important;
+        padding-top: 0.5rem !important;
+    }
     h2 { font-size: 1.2rem !important; }
     h3 { font-size: 1rem !important; }
+    .stMetric { background: #f8f9fa; border-radius: 8px; padding: 10px; }
 </style>
 """, unsafe_allow_html=True)
 
